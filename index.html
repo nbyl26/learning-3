@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning-3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-gray-800 bg-opacity-90 p-4 z-50">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-400">MyPortfolio</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-blue-400">Tentang</a></li>
+          <li><a href="#projects" class="hover:text-blue-400">Proyek</a></li>
+          <li><a href="#contact" class="hover:text-blue-400">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center text-center px-4">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">
+          Hellow, Saya <span class="text-blue-400">Nabil Pasha</span>
+        </h2>
+        <p class="text-lg text-gray-300 mb-6">
+          Member of Front-End Development Division GDGoC 2025
+        </p>
+        <a
+          href="#projects"
+          class="bg-blue-500 hover:bg-blue-700 px-6 py-3 rounded-full font-semibold transition"
+          >Lihat Project</a
+        >
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="py-20 px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Tentang Saya</h2>
+      <p class="text-gray-300 max-w-2xl mx-auto">
+        Saya mahasiswa Teknik Informatika di Universitas Sriwijaya
+      </p>
+    </section>
+
+    <!-- Project -->
+    <section id="projects" class="py-20 px-6 bg-gray-800">
+      <h2 class="text-3xl font-semibold text-center mb-10 text-white">
+        Proyek Saya
+      </h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center max-w-4xl mx-auto"
+      >
+        <!-- Project 1 -->
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+          <img
+            src="assets/project1.png"
+            alt="Proyek 1"
+            class="h-48 w-full object-cover rounded mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2 text-white">Layo-Hotel</h3>
+          <p class="text-gray-300">Layo-Hotel adalah...hehe</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg">
+          <img
+            src="assets/project2.png"
+            alt="Proyek 2"
+            class="h-48 w-full object-cover rounded mb-4"
+          />
+          <h3 class="text-xl font-semibold mb-2 text-white">BarKas-Layo</h3>
+          <p class="text-gray-300">BarKas-Layo adalah sebuah website...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="py-20 px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Hubungi Saya</h2>
+      <p class="text-gray-300">
+        Silakan hubungi saya melalui email atau sosial media saya
+      </p>
+      <div class="mt-6 flex justify-center space-x-6">
+        <a href="https://github.com/nbyl26" class="text-blue-400 text-2xl"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nabilpasha/"
+          class="text-blue-400 text-2xl"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/nbyl.26"
+          class="text-blue-400 text-2xl"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-800 text-center">
+      <p class="text-gray-400">&copy; 2025 Nbyl.26</p>
+    </footer>
+  </body>
+</html>
